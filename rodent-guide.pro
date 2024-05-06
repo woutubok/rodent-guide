@@ -31,10 +31,10 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
-    ../build-PR3-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/rodents.xml \
-    ../build-PR3-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/savedRodents.xml \
-    ../build-PR3-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/savedRodents.xml \
-    ../build-PR3-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/settings.xml
+    ../build-rodent-guide-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/rodents.xml \
+    ../build-rodent-guide-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/savedRodents.xml \
+    ../build-rodent-guide-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/savedRodents.xml \
+    ../build-rodent-guide-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/settings.xml
 
 RESOURCES += \
     res.qrc
