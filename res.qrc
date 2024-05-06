@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/No-Image-Placeholder-darken.png</file>
+        <file>img/terminal.svg</file>
+    </qresource>
+</RCC>
